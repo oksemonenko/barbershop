@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Барбершоп «Бородинский»: Каталог</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
@@ -34,34 +35,35 @@
         <li class="breadcrumbs-active"><a href="shop.html">Средства для ухода</a></li>
       </ul>
     </div>
-    <div class="shop-filters">
-      <h2 class="shop-filters-title">Производители</h2>
-
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-1" id="fabricator-1" value="fabricator-1" checked>
-      <label for="fabricator-1">Baxter of California</label>
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-2" id="fabricator-2" value="fabricator-2">
-      <label for="fabricator-2">Mr Natty</label>
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-3" id="fabricator-3" value="fabricator-3" checked>
-      <label for="fabricator-3">Suavecito</label>
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-4" id="fabricator-4" value="fabricator-4">
-      <label for="fabricator-4">Malin+Goetz</label>
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-5" id="fabricator-5" value="fabricator-5">
-      <label for="fabricator-5">Murray’s</label>
-      <input class="shop-filters-checkbox" type="checkbox" name="fabricator-6" id="fabricator-6" value="fabricator-6" checked>
-      <label for="fabricator-6">American Crew</label>
-
-      <h2 class="shop-filters-title">Группы товаров</h2>
-
+    <form class="shop-filters">
+      <fieldset class="shop-filters-checkbox">
+        <legend>Производители</legend>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-1" id="fabricator-1" value="fabricator-1" checked>
+        <label for="fabricator-1">Baxter of California</label>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-2" id="fabricator-2" value="fabricator-2">
+        <label for="fabricator-2">Mr Natty</label>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-3" id="fabricator-3" value="fabricator-3" checked>
+        <label for="fabricator-3">Suavecito</label>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-4" id="fabricator-4" value="fabricator-4">
+        <label for="fabricator-4">Malin+Goetz</label>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-5" id="fabricator-5" value="fabricator-5">
+        <label for="fabricator-5">Murray’s</label>
+        <input class="shop-filters-checkbox" type="checkbox" name="fabricator-6" id="fabricator-6" value="fabricator-6" checked>
+        <label for="fabricator-6">American Crew</label>
+      </fieldset>
+      <fieldset class="shop-filters-radio">
+        <legend>Группы товаров</legend>
       <input class="shop-filters-radio" type="radio" name="group" id="group-1" value="group-1">
       <label for="group-1">Бритвенные принадлежности</label>
       <input class="shop-filters-radio" type="radio" name="group" id="group-2" value="group-2" checked>
       <label for="group-2">Средства для ухода</label>
       <input class="shop-filters-radio" type="radio" name="group" id="group-3" value="group-3">
       <label for="group-3">Аксессуары</label>
-
-      <div class="shop-catalog">
+      </fieldset>
+    </form>
+    <div class="shop-catalog">
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Набор для путешествий «Baxter of California»" itemprop="image">
+          <img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Набор для путешествий «Baxter of California»
           </h2>
@@ -73,7 +75,7 @@
           </div>
         </article>
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»" itemprop="image">
+          <img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Увлажняющий кондиционер «Baxter of California»
           </h2>
@@ -85,7 +87,7 @@
           </div>
         </article>
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Гель для волос «SUAVECITO»" itemprop="image">
+          <img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Гель для волос «SUAVECITO»
           </h2>
@@ -97,7 +99,7 @@
           </div>
         </article>
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Глина для укладки волос «American crew»" itemprop="image">
+          <img src="img/product-4.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Глина для укладки волос «American crew»
           </h2>
@@ -109,7 +111,7 @@
           </div>
         </article>
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Гель для волос «AMERICAN CREW»" itemprop="image">
+          <img src="img/product-5.jpg" width="220" height="165" alt="Гель для волос «AMERICAN CREW»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Гель для волос «AMERICAN CREW»
           </h2>
@@ -121,7 +123,7 @@
           </div>
         </article>
         <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
-          <img src="http://placehold.it/150x100" width="220" height="165" alt="Набор для бритья «Baxter of California»" itemprop="image">
+          <img src="img/product-6.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»" itemprop="image">
           <h2 class="shop-catalog-item-name" itemprop="name">
             Набор для бритья «Baxter of California»
           </h2>
@@ -132,7 +134,6 @@
             <a class="btn" href="#">Купить</a>
           </div>
         </article>
-      </div>
     </div>
     <div class="shop-page-numbers">
       <ul>
