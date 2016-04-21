@@ -1,0 +1,23 @@
+body {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PTSans NarrowBold", sans-serif;
+  color: #000000;
+}
+
+.index-content-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "PTSans NarrowBold", sans-serif;
+  color: #000000;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "PTSans NarrowBold", sans-serif;
+  color: #000000;
+}
