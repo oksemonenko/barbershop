@@ -37,6 +37,8 @@ body {
 }
 
 .container {
+  background: red;
+
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
@@ -44,6 +46,7 @@ body {
 
 .main-header {
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .main-navigation {
@@ -123,3 +126,22 @@ body {
   min-height: 90px;
 }
 
+/*Сетка страницы магазина*/
+.shop-filters {
+  background: aqua;
+
+  float: left;
+  width: 220px;
+}
+
+.shop-catalog {
+  background: yellow;
+
+  float: right;
+  width: 700px;
+}
+
+.shop-page-numbers {
+  background: bisque;
+
+}
