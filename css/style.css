@@ -128,7 +128,7 @@ body {
   width: 18px;
   height: 18px;
 
-  background: transparent url("../img/enter.png") no-repeat;
+  background: transparent url("../img/login.png") no-repeat;
   opacity: 0.3;
 }
 
@@ -358,7 +358,7 @@ body {
 
 .main-footer {
   margin-top: 65px;
-  padding-top: 60px;
+  padding-top: 55px;
   padding-bottom: 40px;
 
   color: #ffffff;
@@ -419,7 +419,7 @@ body {
   vertical-align: top;
   text-decoration: none;
 
-  background: #000000 url("../img/sprite.png") no-repeat center;
+  background: #000000 url("../img/spritesheet.png") no-repeat center;
 
   transition:
           background-position 0.5s,
@@ -431,27 +431,27 @@ body {
 }
 
 .social-btn-vk {
-  background-position: -24px 12px;
+  background-position: -148px 3px;
 }
 
 .social-btn-fb {
-  background-position: 15px 10px;
+  background-position: 5px 0;
 }
 
 .social-btn-inst {
-  background-position: -65px 10px;
+  background-position: -62px 0;
 }
 
 .social-btn-vk:hover {
-  background-position: 9px -381px;
+  background-position: -193px 3px;
 }
 
 .social-btn-fb:hover {
-  background-position: 15px -100px;
+  background-position: -26px 0px;
 }
 
 .social-btn-inst:hover {
-  background-position: 12px -242px;
+  background-position: -103px 0;
 }
 
 .footer-copyright p {
