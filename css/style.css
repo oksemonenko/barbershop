@@ -562,28 +562,198 @@ body {
   background: #f8f3f0 url("../img/pattern-white.jpg") repeat;
 }
 
-/*Сетка страницы магазина*/
-.shop-filters {
-  background: aqua;
+.inner-page .main-header {
+  margin-bottom: 52px;
+}
 
+/*Страница магазина*/
+.logo {
   float: left;
-  width: 220px;
+  width: 111px;
+  height: 20px;
+  padding-top: 22px;
+  font-size: 0;
+}
+
+.logo img {
+  width: 111px;
+  height: 24px;
+}
+
+.main-navigation .logo:hover {
+  background: none;
+}
+
+.main-navigation .active {
+  position: relative;
+
+  background: none;
+}
+
+.main-navigation .active::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+
+  height: 5px;
+
+  background-color: #ffffff;
+}
+
+.shop-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.shop-breadcrumbs {
+  margin-bottom: 45px;
+}
+
+.shop-breadcrumbs ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.shop-breadcrumbs li {
+  position: relative;
+
+  display: inline;
+  padding-right: 40px;
+}
+
+.shop-breadcrumbs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.shop-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.shop-breadcrumbs li::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 18px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.breadcrumbs-active::after {
+  display: none;
+}
+
+.breadcrumbs-active {
+  color: #aba9a7;
+}
+
+.shop-filters {
+  float: left;
+  width: 180px;
+}
+
+.shop-filters fieldset {
+  border: none;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.shop-filters legend {
+  margin-bottom: 30px;
+  color:  #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
 .shop-filter-checkbox,
 .shop-filter-radio {
+  display: none;
+}
+
+.shop-filters label {
+  position: relative;
   display: block;
+  margin-bottom: 18px;
+  padding-top: 1px;
+  padding-left: 43px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.input-indicator {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;;
+}
+
+.shop-filters-radio .input-indicator {
+  border-radius: 50%;
+}
+
+.shop-filter-checkbox:checked + .input-indicator::before,
+.shop-filter-checkbox:checked + .input-indicator::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0;
+
+  width: 16px;
+  height: 2px;
+
+  background-color: #000000;
+}
+
+.shop-filter-checkbox:checked + .input-indicator::before {
+  transform: rotate(45deg);
+}
+
+.shop-filter-checkbox:checked + .input-indicator::after {
+  transform: rotate(-45deg);
+}
+
+.shop-filter-radio:checked + .input-indicator::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left:4px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background-color: #000000;
 }
 
 .shop-catalog {
-  background: yellow;
-
   float: right;
   width: 700px;
 }
 
 .shop-page-numbers {
-  background: bisque;
+  /*background: bisque;*/
 }
 
 .inner-page .main-footer {

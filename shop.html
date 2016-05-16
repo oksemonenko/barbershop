@@ -11,14 +11,14 @@
   <header class="main-header">
     <div class="container clearfix">
       <nav class="main-navigation">
-        <div class="logo">
-          <a href="index.html">Барбершоп «Бородинский»</a>
-        </div>
-        <ul>
+        <a class="logo" href="index.html">
+          <img src="img/logo-mini.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          Барбершоп «Бородинский»</a>
+        <ul class="main-navigation-list">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="#">Прайс-лист</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li class="active"><a>Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
@@ -34,36 +34,63 @@
         <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="shop.html">Магазин</a></li>
-          <li class="breadcrumbs-active"><a href="shop.html">Средства для ухода</a></li>
+          <li class="breadcrumbs-active">Средства для ухода</li>
         </ul>
       </div>
       <div class="shop-content clearfix">
         <form class="shop-filters">
           <fieldset class="shop-filters-checkbox">
             <legend>Производители</legend>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-1" id="fabricator-1" value="fabricator-1" checked>
-            <label for="fabricator-1">Baxter of California</label>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-2" id="fabricator-2" value="fabricator-2">
-            <label for="fabricator-2">Mr Natty</label>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-3" id="fabricator-3" value="fabricator-3" checked>
-            <label for="fabricator-3">Suavecito</label>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-4" id="fabricator-4" value="fabricator-4">
-            <label for="fabricator-4">Malin+Goetz</label>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-5" id="fabricator-5" value="fabricator-5">
-            <label for="fabricator-5">Murray’s</label>
-            <input class="shop-filter-checkbox" type="checkbox" name="fabricator-6" id="fabricator-6" value="fabricator-6" checked>
-            <label for="fabricator-6">American Crew</label>
+            <label for="fabricator-1">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-1" id="fabricator-1" value="fabricator-1" checked>
+              <span class="input-indicator"></span>
+              Baxter of California
+            </label>
+            <label for="fabricator-2">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-2" id="fabricator-2" value="fabricator-2">
+              <span class="input-indicator"></span>
+              Mr Natty
+            </label>
+            <label for="fabricator-3">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-3" id="fabricator-3" value="fabricator-3" checked>
+              <span class="input-indicator"></span>
+              Suavecito
+            </label>
+            <label for="fabricator-4">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-4" id="fabricator-4" value="fabricator-4">
+              <span class="input-indicator"></span>
+              Malin+Goetz
+            </label>
+            <label for="fabricator-5">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-5" id="fabricator-5" value="fabricator-5">
+              <span class="input-indicator"></span>
+              Murray’s
+            </label>
+            <label for="fabricator-6">
+              <input class="shop-filter-checkbox" type="checkbox" name="fabricator-6" id="fabricator-6" value="fabricator-6" checked>
+              <span class="input-indicator"></span>
+              American Crew
+            </label>
           </fieldset>
           <fieldset class="shop-filters-radio">
             <legend>Группы товаров</legend>
-          <input class="shop-filter-radio" type="radio" name="group" id="group-1" value="group-1">
-          <label for="group-1">Бритвенные принадлежности</label>
-          <input class="shop-filter-radio" type="radio" name="group" id="group-2" value="group-2" checked>
-          <label for="group-2">Средства для ухода</label>
-          <input class="shop-filter-radio" type="radio" name="group" id="group-3" value="group-3">
-          <label for="group-3">Аксессуары</label>
+          <label for="group-1">
+            <input class="shop-filter-radio" type="radio" name="group" id="group-1" value="group-1">
+            <span class="input-indicator"></span>
+            Бритвенные принадлежности
+          </label>
+          <label for="group-2">
+            <input class="shop-filter-radio" type="radio" name="group" id="group-2" value="group-2" checked>
+            <span class="input-indicator"></span>
+            Средства для ухода
+          </label>
+          <label for="group-3">
+            <input class="shop-filter-radio" type="radio" name="group" id="group-3" value="group-3">
+            <span class="input-indicator"></span>
+            Аксессуары
+          </label>
           </fieldset>
-          <input type="submit" name="show" value="Показать">
+          <input class="btn" type="submit" name="show" value="Показать">
         </form>
         <div class="shop-catalog">
             <article class="shop-catalog-item" itemscope itemtype="http://schema.org/Product">
