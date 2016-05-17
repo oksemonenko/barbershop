@@ -701,6 +701,11 @@ body {
   font-weight: 700;
   line-height: 18px;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.shop-filters label:hover {
+  color: #663d15;
 }
 
 .input-indicator {
@@ -860,6 +865,15 @@ body {
 .shop-page-numbers .active a {
   color: #000000;
   background:  #ffffff;
+  cursor: default;
+}
+
+.shop-page-numbers .active a:hover {
+  background:  #ffffff;
+}
+
+.shop-page-numbers a:hover {
+  background: #663d15;
 }
 
 /*Страница товара*/
