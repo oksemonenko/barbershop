@@ -11,14 +11,14 @@
   <header class="main-header">
     <div class="container clearfix">
       <nav class="main-navigation">
-        <div class="logo">
-          <a href="index.html">Барбершоп «Бородинский»</a>
-        </div>
+        <a class="logo" href="index.html">
+          <img src="img/logo-mini.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          Барбершоп «Бородинский»</a>
         <ul>
           <li><a href="#">Информация</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="#">Прайс-лист</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li class="active"><a href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
@@ -30,17 +30,17 @@
   <main class="container">
     <div class="item clearfix" itemscope itemtype="http://schema.org/Product">
       <h1 class="item-title" itemprop="name">Набор для путешествий «Baxter of California»</h1>
-      <div class="item-breadcrumbs">
+      <div class="shop-breadcrumbs">
         <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="shop.html">Магазин</a></li>
           <li><a href="shop.html">Средства для ухода</a></li>
-          <li class="breadcrumbs-active"><a href="item.html">Набор для путешествий «Baxter of California»</a></li>
+          <li class="breadcrumbs-active">Набор для путешествий «Baxter of California»</li>
         </ul>
       </div>
       <div class="item-gallery">
         <figure class="item-gallery-big">
-          <img src="img/preview-big.jpg" width="460" height="498" alt="Набор для путешествий «Baxter of California»" itemprop="image">
+          <img src="img/preview-big.jpg" width="460" height="499" alt="Набор для путешествий «Baxter of California»" itemprop="image">
         </figure>
         <figure class="item-gallery-small">
           <a href="img/preview-1.jpg"><img src="img/preview-1.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»"></a>
@@ -49,8 +49,10 @@
         </figure>
       </div>
       <div class="item-description">
-        <span class="item-availability">Есть в наличии</span>
-        <span class="item-vendor">Артикул: dexter-ae</span>
+        <div class="item-availability-vendor clearfix">
+          <span class="item-availability">Есть в наличии</span>
+          <span class="item-vendor">Артикул: dexter-ae</span>
+        </div>
         <p itemprop="description">
           Travel Kit – необходимый аксессуар во время любого путешествия.
           В аккуратной кожаной сумке находится все, что нужно для бритья
@@ -58,7 +60,7 @@
           средство для умывания, увлажняющий крем, крем для бритья,
           крем после бритья, шампунь. Набор также может стать отличным подарком.
         </p>
-        <div  itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <div class="offers" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
           <div class="shop-catalog-price">2 900 Руб.</div>
           <meta itemprop="price" content="2900.00">
           <meta itemprop="priceCurrency" content="RUB">
