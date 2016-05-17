@@ -786,6 +786,11 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
 }
 
+.shop-catalog-item a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .shop-catalog-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -828,6 +833,7 @@ body {
 .shop-catalog-item .btn {
   display: inline-block;
   padding: 9px 18px;
+  color: #ffffff;
 }
 
 .shop-page-numbers {
