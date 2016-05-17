@@ -566,6 +566,12 @@ body {
   margin-bottom: 52px;
 }
 
+.inner-page .main-footer {
+  margin: 0;
+  padding-top: 57px;
+  padding-bottom: 40px;
+}
+
 /*Страница магазина*/
 .logo {
   float: left;
@@ -747,22 +753,21 @@ body {
   background-color: #000000;
 }
 
+.shop-filters .btn {
+  padding: 12px 30px;
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
 .shop-catalog {
   float: right;
   width: 700px;
 }
 
-.shop-page-numbers {
-  /*background: bisque;*/
-}
-
-.inner-page .main-footer {
-  margin: 0;
-  padding-top: 41px;
-  padding-bottom: 40px;
-}
-
 .shop-catalog {
+  padding-top: 7px;
   font-size: 0;
 }
 
@@ -771,6 +776,9 @@ body {
   vertical-align: top;
   width: 220px;
   margin-right: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .shop-catalog-item:nth-child(3n) {
@@ -778,9 +786,80 @@ body {
 }
 
 .shop-catalog-item-name {
+  margin: 0;
+  margin-bottom: 14px;
+  padding-left: 15px;
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
+}
+
+.item-type {
+  text-transform: none;
+  display: block;
+}
+
+.shop-catalog img {
+  width: 220px;
+  height: 165px;
+}
+
+.shop-catalog-price {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 110px;
+  margin-left: 15px;
+  margin-bottom: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  background: #e5e5e5;
+}
+
+.shop-catalog-item .btn {
+  display: inline-block;
+  padding: 9px 18px;
+}
+
+.shop-page-numbers {
+  margin-bottom: 48px;
+  margin-top: 26px;
+  font-size: 0;
+}
+
+.shop-page-numbers ul {
+  padding: 0;
+  list-style: none;
+}
+
+.shop-page-numbers li {
+  display: inline-block;
+}
+
+.shop-page-numbers a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 43px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color:  #ffffff;
+  background: #000000;
+}
+
+.shop-page-numbers .active a {
+  color: #000000;
+  background:  #ffffff;
 }
 
 /*Страница товара*/
