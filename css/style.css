@@ -1054,7 +1054,7 @@ body {
 }
 
 .modal-content {
-  position: absolute;
+  position: fixed;
   top: 120px;
   left: 50%;
   z-index: 20;
